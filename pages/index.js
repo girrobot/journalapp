@@ -12,7 +12,7 @@ export default function Home() {
     <div>
       <h1>Welcome to ADHDaily!</h1>
       <div>
-        <h2>How are you feeling today?</h2>
+        <h2>How are you feeling today BITCH?</h2>
         <div>
           {['😊', '😐', '😔'].map((emoji) => (
             <button key={emoji} onClick={() => handleMoodChange(emoji)}>
