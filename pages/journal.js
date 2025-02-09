@@ -9,7 +9,7 @@ export default function Journal() {
 
   const handleSaveEntry = async () => {
     if (!entry.trim()) {
-      alert("Please enter your journal entry.");
+      alert("Please enter your journal entry bitch.");
       return;
     }
 
