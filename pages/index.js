@@ -22,7 +22,9 @@ export default function Home() {
         </div>
         <p>Selected Mood: {mood}</p>
       </div>
-      <Link href="/journal">
+
+      {/* Pass mood as query param */}
+      <Link href={`/journal?mood=${encodeURIComponent(mood)}`}>
         <button>Start Journaling</button>
       </Link>
     </div>
