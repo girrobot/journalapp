@@ -21,7 +21,7 @@ export default function Journal() {
 
     setLoading(false);
 
-    if (error) {
+    if (error) {    
       console.error('Error saving entry:', error);
       alert("Failed to save entry.");
     } else {
@@ -36,7 +36,7 @@ export default function Journal() {
       <textarea
         value={entry}
         onChange={(e) => setEntry(e.target.value)}
-        placeholder="How are you feeling today?"
+        placeholder="How are you feeling now?"
       />
 
       <p>Selected Mood: {mood}</p>
